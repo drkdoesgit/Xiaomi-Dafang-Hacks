@@ -269,6 +269,7 @@ function autoStartService(action,serviceName) {
 //Friendly names for known services
 var serviceFriendlyNames = {
     "auto-night-detection": "Auto Night Detection",
+    "dropbear": "SSH Server",
     "debug-on-osd": "Debug on OSD",
     "ftp_server": "FTP Server",
     "mdns-responder": "mDNSResponder",
@@ -280,6 +281,7 @@ var serviceFriendlyNames = {
     "sound-on-startup": "Play Startup Sound",
     "telegram-bot": "Telegram Bot",
     "timelapse": "Timelapse",
+    "lighttpd": "Web server",
 };
 
 //Function get config
